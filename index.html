@@ -19,29 +19,42 @@
         </div>
     </header>
     <main>
-        <section>
+        <!-- <section> -->
         <div class="informacoes">
             <h2 class="informacoes-participante">Informações do participante</h2>
-            <form>
+            <form class="espacamento">
+                <div class="nome-caixa">
                 <label class="informacoes-participante-pessoais" for="nome_completo">Nome completo</label><br>
-                <input class="informacoes-respostas borda" id="nome_completo" type="text"  placeholder="Daiane Silva"><br>
+                <input class="informacoes-respostas borda" id="nome_completo" type="text"  placeholder="Daiane Silva"><br></div>
+                <div class="nome-caixa">
                 <label class="informacoes-participante-pessoais" for="data_de_nascimento">Data de nascimento</label><br>
-                <input class="informacoes-respostas" id="data_de_nascimento" type="text"  placeholder="06/05/2000"><br>
+                <input class="informacoes-respostas" id="data_de_nascimento" type="text"  placeholder="06/05/2000"><br></div>
+                <div class="nome-caixa">
                 <label class="informacoes-participante-pessoais" for="numero_cpf">CPF</label><br>
-                <input class="informacoes-respostas" id="numero_cpf" type="text"  placeholder="123.456.789-00"><br>
-                <label class="informacoes-participante-pessoais" for="sexo">Sexo</label><br>
-                <input class="informacoes-respostas" id="sexo" type="text"  placeholder="Feminino">
-                <img src="assets/fminino-masculino.png" alt="sexo"><br>
+                <input class="informacoes-respostas" id="numero_cpf" type="text"  placeholder="123.456.789-00"><br></div>
+                <div class="nome-caixa">
+                <label class="informacoes-participante-pessoais" for="sexo">Sexo</label>
+                <select class="informacoes-respostas" name="sexo" id="sexo">
+                    <option value="Feminino">Feminino</option>
+                    <option value="Masculino">Masculino</option>
+                </select></div>
+                <div class="nome-caixa-alerta">
                 <label class="informacoes-participante-pessoais" for="e_mail">E-mail</label><br>
-                <input class="informacoes-respostas" id="e_mail" type="email"  placeholder="daianesilva"><br>
-                <small class="email-valido" >insira um e-mail válido</small><br><br>
+                <input class="informacoes-respostas-email" id="e_mail" type="email"  placeholder="daianesilva"><br>
+            <!-- </div> -->
+                <div class="alerta-botao"> 
+                <img class="alerta" src="assets/alert-circle.png" alt="alerta">
+                <small class="email-valido" >insira um e-mail válido</small><br><br></div>
+                </div>
+                <div class="nome-caixa">
                 <label class="informacoes-participante-pessoais" for="numero_telefone">Telefone</label><br>
-                <input class="informacoes-respostas" id="numero_telefone" type="text"  placeholder="(98) 9 8765-4321"><br>
+                <input class="informacoes-respostas" id="numero_telefone" type="text"  placeholder="(98) 9 8765-4321"><br></div>
                 <p class="informacoes-participante-pessoais" >Documento de identidade</p>
-                <img src="assets/cloud-upload.png" alt="upload">
-                <textarea name="mensagem" placeholder="Clique aqui para selecionar o arquivo" width="128px"height="160px" gap="12px"></textarea>       
+                <div class="upload">
+                <img class="upload-img" src="assets/cloud-upload.png" alt="upload">
+                <p class="upload-txt" >Clique aqui para selecionar o arquivo</p>   </div>
         </div>
-        </section>
+        <!-- </section> -->
         <div>
         <section>
             <h3>Endereço residencial</h3>
@@ -57,7 +70,7 @@
                 <label for="estado">Estado</label><br>
                 <input id="estado" type="text"  placeholder="MA">
                 <p>Comprovante de Residência</p>
-                <img src="imagens/cloud-upload.png" alt="upload">
+                <img src="assets/cloud-upload.png" alt="upload">
                 <textarea name="mensagem" placeholder="Clique aqui para selecionar o arquivo" width="128px"height="160px" gap="12px"></textarea>
             </form>
             </div>
@@ -67,19 +80,19 @@
             </div>
             <div>
                 <form>
-                    <img src="imagens/icon-front.png" alt="font-end">
+                    <img src="assets/icon-front.png" alt="font-end">
                     <input id="trilhas_de_aprendizagem" type="radio" placeholder="Programação Front-end"><br>
                     <label for="trilhas_de_aprendizagem">Programação Front-end</label><br>
-                    <img src="imagens/icon-back.png" alt="back-end">
+                    <img src="assets/icon-back.png" alt="back-end">
                     <input id="trilhas_de_aprendizagem1" type="radio" placeholder="Programação Back-end"><br>
                     <label for="trilhas_de_aprendizagem1">Programação Back-end</label><br>
-                    <img src="imagens/icon-jogos.png" alt="jogos">
+                    <img src="assets/icon-jogos.png" alt="jogos">
                     <input id="trilhas_de_aprendizagem2" type="radio" placeholder="Programação de Jogos"><br>
                     <label for="trilhas_de_aprendizagem2">Programação de Jogos</label><br>
-                    <img src="imagens/ux.png" alt="design">
+                    <img src="assets/ux.png" alt="design">
                     <input id="trilhas_de_aprendizagem3" type="radio" placeholder="Design e Experiência"><br>
                     <label for="trilhas_de_aprendizagem3">Design e Experiência</label><br>
-                    <img src="imagens/Frame 48095973.png" alt="dados">
+                    <img src="assets/Frame 48095973.png" alt="dados">
                     <input id="trilhas_de_aprendizagem4" type="radio" placeholder="Ciência de Dados"><br>
                     <label for="trilhas_de_aprendizagem4">Ciência de Dados</label><br><br>
                 </form>
@@ -100,13 +113,13 @@
         </section>
         </div>
         <div>
-            <img src="imagens/Ilustration.png" alt="ilustracao">
+            <img src="assets/Ilustration.png" alt="ilustracao">
         </div>
         <br>
         <br>
         <br>
         <div>
-            <img src="imagens/logo.png" alt="Logo">
+            <img src="assets/logo.png" alt="Logo">
         </div>
     </footer>
 </body>
