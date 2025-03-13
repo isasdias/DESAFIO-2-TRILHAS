@@ -33,8 +33,15 @@ justify-content: space-between;
 
 .informacoes {
     margin-left: 64px;
+    width: 528px;
+    height: 832px;
+    display: flex;
+    flex-flow: column;
+    gap: 24px;
     .informacoes-participante {
         font-size: 16px;
+        width: 528px;
+        height: 20px;
 
         .informacoes-participante-pessoais {
             color: #57534E;
@@ -63,3 +70,60 @@ justify-content: space-between;
     outline: 4px solid #FEE7D6; /* Segunda borda em torno da borda principal */
 
 }
+.informacoes-respostas-email {
+   width: 528px; 
+   height: 48px;
+   border-radius: 8px;
+   padding-left: 16px;
+   border: 2px;
+   outline: 2px solid rgba(220, 38, 38, 1);
+}
+.email-valido {
+
+    font-size: 14px;
+    color: rgba(220, 38, 38, 1);
+}
+.alerta-botao{
+    margin-top: 4px;
+    display: flex;
+    width: 528px;
+    height: 20px;
+    gap:4px;
+}
+.upload {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content:center;
+    gap: 8px;
+    width: 528px;
+    height: 160px;
+    border-radius: 8px;
+    border: 2px dashed rgba(214, 211, 209, 1);}
+    .upload-img{
+     width: 48px;   
+    }
+    .upload-txt{
+        text-align: center;
+width: 163px;
+height: 48px;
+font-size: 16px;
+color: rgba(168, 162, 158, 1);
+    }
+    .nome-caixa {
+     width: 528px;
+     height: 72px;  
+    }
+    .espacamento {
+       display: flex;
+       flex-flow: column; 
+       gap: 24px;
+    }
+    .seta-feminino {
+        width: 24px;
+        height: 24px;
+    }
+    .nome-caixa-alerta {
+        width: 528px;
+        height: 96px;  
+       }
