@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+    font-family:"Poppins",sans-serif; 
+}
+
+.titulo {
+    margin-top: 64px;
+    margin-left: 64px;
+    margin-bottom: 48px;
+    display: flex;
+flex-flow: column;
+justify-content: space-between;
+
+    width: 528px;
+    height: 134px;
+
+    .titulo-preencher {
+        color: #57534E;
+    }
+    .titulo-voltar {
+        justify-content: space-between;
+        display: flex;
+        width: 80px;
+        align-items: center;
+    }
+
+    .titulo-formulario {
+        font-size: 24px;
+    }
+}
+
+.informacoes {
+    margin-left: 64px;
+    .informacoes-participante {
+        font-size: 16px;
+
+        .informacoes-participante-pessoais {
+            color: #57534E;
+
+            .informacoes-respostas {
+                color: #292524;
+                
+            }
+        }
+    }
+}
+
+.informacoes-respostas {
+    width: 528px;
+    height: 48px;
+    border-radius: 8px;
+    padding-left: 16px;
+    font-size: 16px;
+    border: 1px solid #D6D3D1;
+}
+.informacoes-participante-pessoais {
+    font-size: 14px;
+}
+.borda {
+    border: 2px solid #F3541C; /* Primeira borda */
+    outline: 4px solid #FEE7D6; /* Segunda borda em torno da borda principal */
+
+}
