@@ -211,6 +211,7 @@
     border-width: 1px;
     color: #E43A12;
     background: #FFFFFF;
+    border: 1px solid var(--text-colors-text-highlight, #E43A12);
     }
     .botao_fim2{
     width: 169;
@@ -222,7 +223,7 @@
     padding-bottom: 12px;
     padding-left: 24px;
     border-radius: 8px;
-    background: #E43A12;
+    background: var(--brand-colors-brand-dark, #E43A12);
     color:#FFFFFF;
     }
     .imagens_finais{
