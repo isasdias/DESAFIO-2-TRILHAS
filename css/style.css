@@ -175,4 +175,78 @@
     background: var(--surface-colors-surface-primary, #FFFFFF);
   }
 
-    
+    .final_pagina1{
+    width: 528;
+    height: 48;
+    gap: 12px;
+    padding-left: 16px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    }
+    strong{
+        color: #F3541C;
+    }
+    .final_pagina2{
+    width: 528;
+    height: 64;
+    gap: 16px;
+    padding-top: 16px;
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    justify-content:center;
+
+    }
+    .botao_fim1{
+    width: 123;
+    height: 48;
+    min-width: 120px;
+    gap: 8px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    border-radius: 8px;
+    border-width: 1px;
+    color: #E43A12;
+    background: #FFFFFF;
+    }
+    .botao_fim2{
+    width: 169;
+    height: 48;
+    min-width: 120px;
+    gap: 8px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    border-radius: 8px;
+    background: #E43A12;
+    color:#FFFFFF;
+    }
+    .imagens_finais{
+    background-color:blue;
+    width: 500;
+    height: 500;
+    top: 140px;
+    left: 712px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    flex-flow: column;
+    }
+    .imagem_fim{
+    border: 3px solid #FFFFFF
+    }
+    .container1{
+    font-size: 16px;
+    width: 528px;
+    height: 520px;
+    margin-left: 64px;
+    width: 528px;
+    display: flex;
+    flex-flow: column;
+    gap: 24px;
+    }
