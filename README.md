@@ -1,6 +1,6 @@
-#Desafio 2 - Trilhas 2B
+# Desafio 2 - Trilhas 2B
 
-Este projeto é um formulário de inscrição para o programa Trilhas, desenvolvido como parte de um desafio. O formulário coleta informações pessoais, dados de contato, endereço e permite que o usuário selecione uma trilha de aprendizagem. Ele é estilizado utilizando CSS para garantir uma interface limpa e responsiva.
+Este projeto é um formulário de inscrição para o programa Trilhas, desenvolvido como parte de um desafio. O formulário coleta informações pessoais, dados de contato, endereço e permite que o usuário selecione uma trilha de aprendizagem. Ele é estilizado utilizando CSS para garantir uma interface limpa e funcional.
 
 ## Colaboradores
 
