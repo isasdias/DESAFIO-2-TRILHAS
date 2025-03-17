@@ -1,11 +1,11 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;  
+    padding: 0;
     font-family:"Poppins",sans-serif; 
-}
-
-.titulo {
+    }
+    
+    .titulo {
     margin-top: 64px;
     margin-left: 64px;
     margin-bottom: 48px;
@@ -14,7 +14,7 @@
     justify-content: space-between;
     width: 528px;
     height: 134px;
-
+    
     .titulo-preencher {
         color: #57534E;
     }
@@ -24,13 +24,13 @@
         width: 80px;
         align-items: center;
     }
-
+    
     .titulo-formulario {
         font-size: 24px;
     }
-}
-
-.informacoes {
+    }
+    
+    .informacoes {
     margin-left: 64px;
     width: 528px;
     height: 832px;
@@ -41,55 +41,55 @@
         font-size: 16px;
         width: 528px;
         height: 20px;
-
+    
         .informacoes-participante-pessoais {
             color: #57534E;
-
+    
             .informacoes-respostas {
                 color: #292524;
                 
             }
         }
     }
-}
-
-.informacoes-respostas {
+    }
+    
+    .informacoes-respostas {
     width: 528px;
     height: 48px;
     border-radius: 8px;
     padding-left: 16px;
     font-size: 16px;
     border: 1px solid #D6D3D1;
-}
-.informacoes-participante-pessoais {
+    }
+    .informacoes-participante-pessoais {
     font-size: 14px;
-}
-.borda {
+    }
+    .borda {
     border: 2px solid #F3541C; /* Primeira borda */
     outline: 4px solid #FEE7D6; /* Segunda borda em torno da borda principal */
-
-}
-.informacoes-respostas-email {
-   width: 528px; 
-   height: 48px;
-   border-radius: 8px;
-   padding-left: 16px;
-   border: 2px;
-   outline: 2px solid rgba(220, 38, 38, 1);
-}
-.email-valido {
-
+    
+    }
+    .informacoes-respostas-email {
+    width: 528px; 
+    height: 48px;
+    border-radius: 8px;
+    padding-left: 16px;
+    border: 2px;
+    outline: 2px solid rgba(220, 38, 38, 1);
+    }
+    .email-valido {
+    
     font-size: 14px;
     color: rgba(220, 38, 38, 1);
-}
-.alerta-botao{
+    }
+    .alerta-botao{
     margin-top: 4px;
     display: flex;
     width: 528px;
     height: 20px;
     gap:4px;
-}
-.upload {
+    }
+    .upload {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -100,7 +100,7 @@
     border-radius: 8px;
     border: 2px dashed rgba(214, 211, 209, 1);}
     .upload-img{
-     width: 48px;   
+        width: 48px;   
     }
     .upload-txt{
     text-align: center;
@@ -110,13 +110,13 @@
     color: rgba(168, 162, 158, 1);
     }
     .nome-caixa {
-     width: 528px;
-     height: 72px;  
+        width: 528px;
+        height: 72px;  
     }
     .espacamento {
-       display: flex;
-       flex-flow: column; 
-       gap: 24px;
+        display: flex;
+        flex-flow: column; 
+        gap: 24px;
     }
     .seta-feminino {
         width: 24px;
@@ -125,7 +125,7 @@
     .nome-caixa-alerta {
         width: 528px;
         height: 96px;  
-       }
+        }
     .espacamento2{
         display: flex;
         flex-flow: column; 
@@ -136,7 +136,7 @@
         width: 528px;
         height: 20px;
     }
-   .container{
+    .container{
         font-size: 16px;
         width: 528px;
         height: 520px;
@@ -145,109 +145,186 @@
         display: flex;
         flex-flow: column;
         gap: 24px;
-   }
-   .informacoes-participante-pessoais2 {
+    }
+    
+    .caixa-trilhas-selecao {
+        width: 256px;
+        height: 120px;
+        border:2px solid rgba(214, 211, 209, 1);
+        border-radius: 8px;
+    }
+    
+    .cada-trilha{
+    /* width: 256px; */
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 8px;
+    justify-content: space-around;
+    
+    img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    }
+    
+    .cada-trilha-input{
+        width: 21.5px;
+        height: 21.5px;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 8px;
+        margin-top: 8px;
+    
+        input {
+        width: 21.5px;
+        display: inline;
+    }
+    
+    }
+    
+        .todas-as-trihas{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 colunas de igual largura */
+            grid-template-rows: repeat(3, auto); /* 3 linhas, com altura automática */
+            gap: 16px; /* Espaçamento entre os elementos */
+            
+    }
+    
+    
+    
+    .informacoes-participante-pessoais2 {
     font-size: 14px;
-
-   }
-   .informacoes-respostas-borda2{
-    width: 528px;
+    
+    }
+    .informacoes-respostas-borda2{
+    width: 332px;
     height: 48px;
     border-radius: 8px;
     padding-left: 16px;
     font-size: 16px;
-    border: 1px solid;
+    border: 1px solid  #D6D3D1;
     background: var(--surface-colors-surface-disabled, #E7E5E4);
- 
-   }
-  .junto{
+    
+    }
+    .junto{
     text-align: center;
     display: flex;
     gap: 24px;
-  }
-  .informacoes-respostas-borda3{
-    width: 528px;
+    
+    }
+    .informacoes-respostas-borda3{
+    width: 176px;
     height: 48px;
     border-radius: 8px;
     padding-left: 16px;
     font-size: 16px;
-    border: 1px solid;
+    border: 1px solid  #D6D3D1;
     background: var(--surface-colors-surface-primary, #FFFFFF);
-  }
-
-    .final_pagina1{
-    width: 528;
-    height: 48;
-    gap: 12px;
-    padding-left: 16px;
-    font-size: 16px;
-    text-align: center;
-    display: flex;
     }
-    strong{
-        color: #F3541C;
+    
+    .container-info{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-left: 64px;
     }
-    .final_pagina2{
-    width: 528;
-    height: 64;
-    gap: 16px;
-    padding-top: 16px;
-    display: flex;
-    text-align: center;
-    align-items: flex-end;
-    justify-content:center;
-
+    
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 528px;
     }
-    .botao_fim1{
-    width: 123;
-    height: 48;
-    min-width: 120px;
-    gap: 8px;
-    padding-top: 12px;
-    padding-right: 24px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    border-radius: 8px;
-    border-width: 1px;
-    color: #E43A12;
-    background: #FFFFFF;
-    border: 1px solid var(--text-colors-text-highlight, #E43A12);
+    
+    .nome-caixa-dual {  /*para colocar os inputs lado a lado*/
+        display: flex;
+        gap: 20px;
     }
-    .botao_fim2{
-    width: 169;
-    height: 48;
-    min-width: 120px;
-    gap: 8px;
-    padding-top: 12px;
-    padding-right: 24px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    border-radius: 8px;
-    background: var(--brand-colors-brand-dark, #E43A12);
-    color:#FFFFFF;
+    
+    .declaracao{
+        width: 492px;
+        height: 48px;
+        color: rgba(87, 83, 78, 1);
+        font-size: 16px;
+    
+        strong{
+            color: rgba(228, 58, 18, 1);
+            line-height: 150%;
+        }
     }
-    .imagens_finais{
-    background-color:blue;
-    width: 500;
-    height: 500;
-    top: 140px;
-    left: 712px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content:center;
-    flex-flow: column;
+    
+    .declaracao-caixa{
+        width: 528px;
+        height: 48px;
+        display: flex;
+        gap: 12px;
+        margin-left: 64px;
+        margin-top: 48px;
     }
-    .imagem_fim{
-    border: 3px solid #FFFFFF
+    
+    .botao-cancelar{
+        width: 123px;
+        height: 48px;
+        border: 1px solid rgba(228, 58, 18, 1);
+        border-radius: 8px;
+        color: rgba(228, 58, 18, 1); 
+        font-weight: 500;
+        background-color: rgba(255, 255, 255, 1);
+        cursor: pointer;
     }
-    .container1{
-    font-size: 16px;
-    width: 528px;
-    height: 520px;
-    margin-left: 64px;
-    width: 528px;
-    display: flex;
-    flex-flow: column;
-    gap: 24px;
+    .botao-inscricao{
+        width: 169px;
+        height: 48px;
+        border-radius: 8px;
+        color:rgba(255, 255, 255, 1);
+        font-weight: 500;
+        background-color:rgba(228, 58, 18, 1);
+        border: none;
+        cursor: pointer;
     }
+    
+    .botoes{
+        width: 528px;
+        height: 64px;
+        display: flex;
+        gap: 16px;
+        right: 0;
+        margin-bottom: 0;
+        justify-content: flex-end;
+        margin-top: 48px;
+        margin-left: 64px;
+    
+    }
+    
+    .imagem-logotipo{
+        width: 924px;
+        height: 26.49px; 
+        background-color: rgba(33, 53, 166, 1);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagem-estudante{
+        width: 824px;
+        height: 500px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logos{
+        background-color: rgba(33, 53, 166, 1);
+        /* width: 100%; */
+        height: 830px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    
